@@ -2,3 +2,6 @@
 target
 /bin
 bin
+.settings/
+.idea/
+zebra-zpl.iml
