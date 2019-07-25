@@ -64,6 +64,14 @@ public class ZebraText extends ZebraElement {
 		this.positionY = positionY;
 	}
 
+	public ZebraText(int positionX, int positionY, String text, int fontSize, ZebraRotation zebraRotation) {
+		this.fontSize = fontSize;
+		this.zebraRotation = zebraRotation;
+		this.text = text;
+		this.positionX = positionX;
+		this.positionY = positionY;
+	}
+
 	public ZebraText(int positionX, int positionY, String text, ZebraFont zebraFont, int fontSize, ZebraRotation zebraRotation) {
 		this.zebraFont = zebraFont;
 		this.fontSize = fontSize;
